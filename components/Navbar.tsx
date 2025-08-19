@@ -54,7 +54,6 @@ import { useState } from 'react'
 import { HiMenu } from 'react-icons/hi'
 import { IoClose } from 'react-icons/io5'
 import { motion, AnimatePresence } from 'framer-motion'
-import logo from '@/images/logo.svg' // Replace with your actual logo
 
 const navLinks = [
   { name: 'Services', href: '/services' },
