@@ -60,3 +60,7 @@ body {
   animation: marquee 25s linear infinite;
 }
 
+.white-stroke-text {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
