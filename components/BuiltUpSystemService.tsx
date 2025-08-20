@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const BuiltUpSystemService = () => {
   return (
-    <section className="bg-white px-6 py-20 text-black overflow-hidden ">
+    <section id='built-up-systems' className="bg-white px-6 py-20 text-black overflow-hidden ">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold uppercase text-transparent stroke-text mb-16">

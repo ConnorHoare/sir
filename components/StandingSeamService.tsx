@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const StandingSeamService = () => {
   return (
-    <section className="bg-white px-6 py-20">
+    <section id='standing-seam-systems' className="bg-white px-6 py-20 scroll-mt-20">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold uppercase text-transparent stroke-text mb-12">

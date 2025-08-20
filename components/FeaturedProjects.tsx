@@ -15,13 +15,18 @@ const FeaturedProjects = () => {
         {/* Scrollable container */}
         <div className="flex gap-8 overflow-x-auto custom-scrollbar scroll-smooth pb-4">
           {projects.slice(0, 5).map((project) => (
-            <ProjectCard
+            <Link
               key={project.id}
-              title={project.title}
-              location={project.location}
-              system={project.system}
-              image={project.image}
-            />
+              href={`/projects/${project.slug}`}
+              className="shrink-0"
+            >
+              <ProjectCard
+                title={project.title}
+                location={project.location}
+                system={project.system}
+                image={project.image}
+              />
+            </Link>
           ))}
         </div>
 

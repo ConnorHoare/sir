@@ -31,7 +31,7 @@ const Hero = () => {
         {/* Buttons */}
         <div className="mt-8 md:mt-10 flex flex-col md:flex-row gap-4 md:gap-6 w-full max-w-xs md:max-w-none">
           <Link
-            href="/work"
+            href="/projects"
             className="bg-black bg-opacity-80 text-white text-sm font-bold py-3 px-6 rounded-full flex items-center justify-center gap-2 hover:bg-opacity-100 transition md:text-base md:px-8"
           >
             SEE OUR WORK <span className="text-yellow-400 text-lg">➤</span>

@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const RainscreenCladdingService = () => {
   return (
-    <section className="bg-zinc-900 px-6 py-20 text-white overflow-hidden">
+    <section id='rainscreen-cladding' className="bg-zinc-900 px-6 py-20 text-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold uppercase text-transparent white-stroke-text mb-16">

@@ -28,7 +28,7 @@ const ServiceCard = ({ title, image, slug }: Props) => {
 
       {/* Arrow Button */}
       <Link
-        href={`/services/${slug}`}
+        href={`#${slug}`}
         className="absolute bottom-0 right-0 bg-black px-3 py-2 group-hover:bg-green-700 transition"
         aria-label={`View more about ${title}`}
       >

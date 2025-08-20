@@ -7,26 +7,14 @@ export const services = [
   },
   {
     id: 2,
-    title: 'Standing Seam Systems',
+    title: 'Rainscreen Cladding',
     image: '/images/featuredproject.png',
-    slug: 'standing-seam-systems',
+    slug: 'rainscreen-cladding',
   },
   {
     id: 3,
-    title: 'Standing Seam Systems',
+    title: 'Built Up Systems',
     image: '/images/featuredproject.png',
-    slug: 'standing-seam-systems',
-  },
-  {
-    id: 4,
-    title: 'Standing Seam Systems',
-    image: '/images/featuredproject.png',
-    slug: 'standing-seam-systems',
-  },
-  {
-    id: 5,
-    title: 'Standing Seam Systems',
-    image: '/images/featuredproject.png',
-    slug: 'standing-seam-systems',
+    slug: 'built-up-systems',
   },
 ]
